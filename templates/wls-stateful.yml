@@ -16,6 +16,7 @@ spec:
     spec:
       affinity:
         podAffinity:
+## weblogic admin server and domain server share the  configrations,add PodAffinity to get them bounded.
           requiredDuringSchedulingIgnoredDuringExecution:
           - labelSelector:
               matchExpressions:
