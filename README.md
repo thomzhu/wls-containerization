@@ -1,8 +1,11 @@
 ##一些开源项目：
 
 关于kubernetes集群安装：https://github.com/kubernetes-SIGs/kubespray
+
 weblogic-operator：https://github.com/thomzhu/weblogic-kubernetes-operator
+
 kubernetes包管理器helm：https://github.com/helm/charts
+
 把ipv6-only应用在多节点的kubernetes集群中：https://github.com/leblancd/kube-v6
 
 
