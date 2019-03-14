@@ -1,3 +1,13 @@
+##一些开源项目：
+
+关于kubernetes集群安装：https://github.com/kubernetes-SIGs/kubespray
+weblogic-operator：https://github.com/thomzhu/weblogic-kubernetes-operator
+kubernetes包管理器helm：https://github.com/helm/charts
+把ipv6-only应用在多节点的kubernetes集群中：https://github.com/leblancd/kube-v6
+
+
+##以下是使用docker部署weblogic的内容：
+
 WebLogic Sample on Kubernetes with Shared Domain Home
 =========================================
 This sample extends the Oracle WebLogic developer install image by creating a sample WLS 12.2.1.3 domain and cluster to run in Kubernetes. The WebLogic domain consists of an Admininstrator Server and several Managed Servers running in a WebLogic cluster. All WebLogic servers share the same domain home which has been mapped to an external volume.
@@ -131,5 +141,3 @@ $ kubectl delete -f k8s/pv.yml
 $ kubectl delete -f k8s/secrets.yml
 ```
 You can now delete all of data generated to the external directories.
-## COPYRIGHT
-Copyright (c) 2014-2018 Oracle and/or its affiliates. All rights reserved.
